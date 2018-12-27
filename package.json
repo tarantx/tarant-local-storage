@@ -43,6 +43,7 @@
     "coveralls": "3.0.2",
     "faker": "4.1.0",
     "jest": "23.6.0",
+    "jest-localstorage-mock": "^2.3.0",
     "prettier": "1.15.3",
     "rollup": "^0.68.2",
     "rollup-plugin-commonjs": "^9.2.0",
@@ -56,9 +57,12 @@
     "typescript": "3.2.2"
   },
   "dependencies": {
-    "tarant": "2.3.2"
+    "tarant": "2.3.3"
   },
   "jest": {
-    "preset": "ts-jest"
+    "preset": "ts-jest",
+    "setupFiles": [
+      "jest-localstorage-mock"
+    ]
   }
 }

@@ -27,6 +27,7 @@ export default class LocalStorageRepository implements IMaterializer, IResolver 
     delete actorState.self
     delete actorState.supervisor
     delete actorState.system
+    delete actorState.__internals
 
     const className = actor.constructor.prototype.localStoragePersistenceName
 

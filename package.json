@@ -1,6 +1,6 @@
 {
   "name": "tarant-local-storage",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "local storage resolver and materializer for offline applications",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

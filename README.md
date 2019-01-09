@@ -1,3 +1,5 @@
+# ![logomakr_8pe69n](https://user-images.githubusercontent.com/3071208/50903610-8ab1e700-141e-11e9-8190-81a2a8ffe4fe.png)
+
 [![npm](https://img.shields.io/npm/v/tarant-local-storage.svg)](https://www.npmjs.com/package/tarant-local-storage)
 [![Build Status](https://travis-ci.org/tarantx/tarant-local-storage.svg?branch=master)](https://travis-ci.org/tarantx/tarant-local-storage)
 [![Coverage Status](https://coveralls.io/repos/github/tarantx/tarant-local-storage/badge.svg?branch=master)](https://coveralls.io/github/tarantx/tarant-local-storage?branch=master)
@@ -50,3 +52,4 @@ window.onload = () => {
   system.actorOf(MyPersistedActor)
 }
 ```
+##### Created my free [logo](https://logomakr.com/8pe69n) at <a href="http://logomakr.com" title="Logo Makr">LogoMakr.com</a> 

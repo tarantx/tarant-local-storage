@@ -5,5 +5,6 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-export { default as LocalStoragePersisted } from './decorator'
-export { default as LocalStorageRepository } from './repository'
+export { LocalStorageMaterializer } from './LocalStorageMaterializer'
+export type { IUpdatable } from './IUpdatable'
+export type { IExportable } from './IExportable'
